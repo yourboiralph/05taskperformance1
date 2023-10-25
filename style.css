@@ -1,0 +1,59 @@
+body{
+    color:white;
+}
+.name{
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 30px;
+    align-items: right;
+    background-color: #015e7c;
+    height: 60px;
+}
+.wrapper{
+    display: flex;
+}
+.container{
+    display: flex;
+}
+
+.row-manage{
+    height: 25px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    background-color: #015e7c;
+    margin: 4px;
+}
+
+.rows{
+    height: 25px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    background-color: #1ca2bb;
+    margin: 4px;
+}
+.web, .desktop, .mobile, .profile{
+    border: 3px solid orange;
+    display: inline;
+    height: auto;
+    display: inline-block; /* Changed from 'block' to 'inline-block' */
+    vertical-align: top; /* Added to align items to the top */
+    border: 3px solid orange;
+    margin: 4px;
+    padding: 10px;
+    height: fit-content;
+}
+img{
+    width: 50%;
+    display: block;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
